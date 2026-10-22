@@ -1,5 +1,5 @@
-# Hello, this is my attempt at proving machines can develop imagination.
-I took some liberties on the symbology of the movie Mr. K, the K shaped economy, and combined them with some of my eschatological writing and research. 
+# Hello, an attempt to imagine machines can develop imagination.
+I took some liberties on the symbology of the movie Mr. K, the K shaped economy, and combined them with some of my eschatological research and creative omniverse elements.
 Let's call it 
 Fractal Ontology Alignment (for now!)
 
