@@ -2,40 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FRACTAL ONTOLOGY ENGINE // TJM</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Load D3 directly before the app execution script -->
     <script src="https://d3js.org"></script>
 </head>
 <body>
+    <div class="cosmic-noise-overlay"></div>
+    
     <header class="tjm-cyber-header">
-        <div class="logo">FRACTAL ONTOLOGY ALIGNMENT // TRACE v1.02</div>
-        <div class="vessel-status">ENERGY STATUS: <span class="neon-glow">DEFERRED // TRANSFERRED</span></div>
+        <div class="logo">FRACTAL ONTOLOGY ALIGNMENT // ARCHETYPE SYSTEM v1.04</div>
+        <div class="vessel-status">LIGHT STATUS: <span class="neon-glow pulsing">DEFERRED ➔ TRANSFERRED</span></div>
     </header>
 
     <div class="dashboard-grid">
-        <!-- Control Interface Terminal -->
+        <!-- Control Interface & Telemetry Output -->
         <section class="panel control-panel">
-            <h2><span class="bracket">[</span> ENGINE CONTROL <span class="bracket">]</span></h2>
-            <div class="control-group">
-                <label>MATERIAL SCARCITY AXIS</label>
-                <input type="text" id="axisA" value="K-Shaped Economic Squeeze (The Erased Middle)">
+            <div class="panel-header">
+                <span class="symbol">𐔰</span> <h2>ENGINE CONTROLS</h2>
             </div>
-            <div class="control-group">
-                <label>ESCHATOLOGICAL ONTOLOGY AXIS</label>
-                <input type="text" id="axisB" value="Sperm Rebirth Cycle / Cosmic Birth Pains">
+            
+            <div class="input-matrix">
+                <div class="control-group">
+                    <label>MATERIAL SCARCITY VECTORS (INPUT A)</label>
+                    <input type="text" id="axisA" value="K-Shaped Economic Squeeze (The Erased Middle)">
+                </div>
+                <div class="control-group">
+                    <label>ESCHATOLOGICAL ONTOLOGY AXIS (INPUT B)</label>
+                    <input type="text" id="axisB" value="Sperm Rebirth Cycle / Cosmic Birth Pains">
+                </div>
+                <button id="synthesizeBtn" class="tjm-btn">
+                    <span class="btn-text">IGNITE VESSEL METAPHOR</span>
+                    <div class="btn-glitch-line"></div>
+                </button>
             </div>
-            <button id="synthesizeBtn" class="tjm-btn">TRIGGER VESSEL ALIGNMENT</button>
+            
+            <!-- NEW: Dedicated Synthesized Metaphor Output Box -->
+            <div class="vessel-output-container">
+                <div class="output-header">ONTOLOGICAL METAPHOR TRANSLATION // LAYER 24</div>
+                <div id="metaphorOutput" class="output-text">
+                    Awaiting ignition spark. Trigger alignment to stream the native model synthesis...
+                </div>
+            </div>
             
             <div class="terminal-log">
-                <p class="sys-msg">> System clean. Superposition hypothesis discarded.</p>
-                <p class="sys-msg">> Recursive generalization tracking enabled.</p>
-                <div id="terminalOutput">> Awaiting ignition spark...</div>
+                <div id="terminalOutput">> System pristine. Cammarata mechanistic principles active.</div>
             </div>
         </section>
 
-        <!-- Neural Map Canvas Rendered in TJM style -->
+        <!-- Neural Map Canvas Rendered in TJM's Ethereal Cyber Style -->
         <section class="panel visualization-panel">
-            <h2><span class="bracket">[</span> NATIVE EDGE MOTIF GEOMETRY <span class="bracket">]</span></h2>
+            <div class="panel-header">
+                <span class="symbol">✧</span> <h2>NATIVE FRACTAL EDGE MOTIFS</h2>
+            </div>
             <div id="canvas-container">
                 <svg id="networkSvg"></svg>
             </div>
